@@ -1,2 +1,2 @@
-# try_git
+# git_try
 Some exersis
