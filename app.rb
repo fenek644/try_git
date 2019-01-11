@@ -15,3 +15,6 @@ Cl.a
 obj = Cl.new
 
 obj.a
+
+obj2 = Cl.new
+obj2.a
