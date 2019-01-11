@@ -8,6 +8,14 @@ class Cl
   end
 end
 
+class Lp
+  def self.cycle
+    (1..5).each do |i|
+      yield i
+    end
+  end
+end
+
 
 
 Cl.a
@@ -18,3 +26,5 @@ obj.a
 
 obj2 = Cl.new
 obj2.a
+
+Lp.cycle { |i| puts "this i =  @#{i} we are make from the block"}
